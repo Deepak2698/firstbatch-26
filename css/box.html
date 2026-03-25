@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<body>
+    <div>
+        <h1>Box Model</h1>
+
+        <!-- 
+        
+            margin - space outside the border
+            border - the border of the box
+            padding - space between the content and the border
+            content - the actual content of the box[text, image, etc.]
+
+        -->
+
+        <!-- Naming rule is = TOP RIGHT BOTTOM LEFT -->
+
+        <div style="border-radius: 50%;
+                   padding: 3px 40px 10px 83px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 120px;
+                    background-color: lightblue;">
+            <p style="border: 1px dashed brown;
+                    padding: 10px;
+                    margin: 10px;
+                    width: 150px;
+                    height: 70px;
+                    background-color: lightyellow;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptas natus.
+            </p>
+        </div>
+
+        <div style="border: 2px solid purple;
+                    padding: 20px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 150px;
+                    background-color: lightblue;">
+
+            <h4>Product</h4>
+            <img src="" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Read more..</button>
+
+        </div>
+
+        <h3 >How do CSS triangles work?</h3>
+
+<div style="width: 0; height: 0; border-left: 50px solid transparent; 
+            border-right: 50px solid transparent; 
+            border-bottom: 50px solid green; margin: 2rem;">
+</div>
+
+    <style>
+        /*
+Source - https://stackoverflow.com/q/25384761
+Posted by Saswat, modified by community. See post 'Timeline' for change history
+Retrieved 2026-03-23, License - CC BY-SA 3.0
+*/
+
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+    </style>
+
+    <div id="star-five"></div>
+    </div>
+</body>
+</html>

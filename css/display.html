@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<body>
+    <div>
+        <h1>Display</h1>
+
+        <!-- Display Properties in CSS
+        
+        The display property in CSS is used to specify how an element should be displayed on the web page.
+        It can take various values, such as block, inline, inline-block, none, and more. 
+        Each value determines how the element interacts with other elements and how it is rendered in the layout.
+        
+
+        Common values for the display property include:
+
+        - block: The element is displayed as a block-level element, taking up the full width available and starting on a new line.
+        - inline: The element is displayed as an inline element, taking up only as much width as necessary and allowing other elements to be on the same line.
+        - inline-block: The element is displayed as an inline-level block container. It allows the element to be formatted as a block while still flowing with the surrounding content.
+        - none: The element is not displayed at all (it is hidden). It does not take up any space in the layout, and it is not rendered on
+        the page.
+        - flex: The element is displayed as a flexible container, allowing its children to be laid out in a flexible manner, either in a row or column.
+        - grid: The element is displayed as a grid container, allowing its children to be laid out in a grid format with rows and columns.
+
+        -->
+
+        <!-- Block Display -->
+        <div>
+            <div style="display: block;
+            background-color: lightblue;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 200px;
+            width: 200px;">
+                Block 1
+            </div>
+            <div style="display: block;
+            background-color: lightcoral;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 200px;
+            width: 200px;">
+                Block 2
+            </div>
+            <div style="display: block;
+            background-color: lightgreen;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 200px;
+            width: 200px;">
+                Block 3
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Inline Display -->
+
+        <div>
+            <span style="display: inline;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+            height: 150px;
+            width: 100px;">
+                Inline 1
+            </span>
+            <span style="display: inline;
+            background-color: lightcoral;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 150px;
+            width: 100px;">
+                Inline 2
+            </span>
+            <span style="display: inline;
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+            height: 150px;
+            width: 100px;">
+                Inline 3
+            </span>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Inline-Block Display -->
+
+        <div>
+            <div style="display: inline-block;
+            background-color: lightblue;
+            border: 2px solid black;
+            padding: 10px;
+            
+            height: 150px;
+            width: 100px;">
+                Inline-Block 1
+            </div>
+            <div style="display: inline-block;
+            background-color: lightcoral;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 150px;
+            width: 100px;">
+                Inline-Block 2
+            </div>
+            <div style="display: inline-block;
+            background-color: lightgreen;
+            border: 2px solid black;
+            padding: 10px;
+            
+            height: 150px;
+            width: 100px;">
+                Inline-Block 3
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+        <!-- Flex Display -->
+
+        <div style="display: flex;
+        background-color: lightgray;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px;
+        height: 200px;">
+            <div style="background-color: lightblue;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            height: 150px;
+            width: 100px;">
+                Flex 1
+            </div>
+            <div style="background-color: lightcoral;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 20px;
+            height: 150px;
+            width: 100px;">
+                Flex 2
+            </div>
+            <div style="background-color: lightgreen;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            height: 150px;
+            width: 100px;">
+                Flex 3
+            </div>
+        </div>
+
+        <!-- Grid Display -->
+
+        <div style="display: grid;
+        background-color: lightgray;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px;
+        height: 200px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;">
+            <div style="background-color: lightblue;
+            border: 2px solid black;
+            padding: 10px;
+            height: 150px;
+            width: 100px;">
+                Grid 1
+            </div>
+            <div style="background-color: lightcoral;
+            border: 2px solid black;
+            padding: 10px;
+            height: 150px;
+            width: 100px;">
+                Grid 2
+            </div>
+            <div style="background-color: lightgreen;
+            border: 2px solid black;
+            padding: 10px;
+            height: 150px;
+            width: 100px;">
+                Grid 3
+            </div>
+        </div>
+
+        <!-- Display: none -->
+
+        <div style="
+        background-color: lightgray;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px;
+        ">
+
+        <p>This content is hidden and will not be displayed on the page.</p>
+        <img src="https://decodecrafters.in/assets/NAV1-DH6VW9a4.png" alt="dcc" height="100px" width="150px" style="display: none;">    
+        </div>
+
+        <!-- Visibility : hidden -->
+
+        <div style="
+        background-color: lightgray;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px;       
+        ">
+            This content is hidden but still takes up space in the layout.
+            <img src="https://decodecrafters.in/assets/NAV1-DH6VW9a4.png" alt="dcc" height="100px" width="150px" style="visibility: hidden;">
+        </div>  
+    </div>
+</body>
+</html>
