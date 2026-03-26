@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+</head>
+<body>
+    <div>
+        <!--CSS3  consists of Transform, Transition, and Animation -->
+
+        <!-- 2D Transform -->
+
+        <!-- 2D Transform includes: 
+        
+            Scale 
+            Rotate
+            Skew
+            Translate
+
+        -->
+
+        <style>
+            .scale {
+                width: 100px;
+                height: 100px;
+                margin: 50px;
+                padding: 20px;
+                background-color: lightblue;
+                transition: transform 0.5s ease; /* Smooth transition */
+            }
+
+            .scale:hover {
+                transform: scale(1.5); /* Scale up on hover */
+            }
+        </style>
+        <div class="scale">
+            Scale Effect
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+
+        <style>
+            .translate {
+                width: 200px;
+                height: 200px;
+                margin: 50px;
+                padding: 20px;
+                background-color: lightcoral;
+                transition: transform 0.5s ease; /* Smooth transition */
+            }
+
+            .translate:hover {
+                transform: translate(20px, -50px); /* Move right and down on hover */
+            }
+        </style>
+        <div class="translate">
+            translate(x, y) function moves an element from its current position by the specified x and y values.
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <style>
+                .rotate {
+                    width: 250px;
+                    height: 150px;
+                    margin: 50px;
+                    padding: 20px;
+                    background-color: lightgreen;
+                    transition: transform 0.5s ease; /* Smooth transition */
+                }
+
+                .rotate:hover {
+                    transform: rotate(360deg); /* Rotate 45 degrees on hover */
+                    background-color: lightseagreen;
+                    width: 400px;
+                    transition-delay: 1s; /* Delay the width change */
+
+                }
+            </style>
+            <div class="rotate">
+                Rotate Effect
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <style>
+                .skew {
+                    width: 200px;
+                    height: 100px;
+                    margin: 50px;
+                    padding: 20px;
+                    background-color: lightyellow;
+                    transition: transform 0.5s ease; /* Smooth transition */
+                }
+
+                .skew:hover {
+                    transform: skew(60deg, 60deg); /* Skew on hover */
+                }
+            </style>
+            <div class="skew">
+                Skew Effect
+            </div>
+        </div>
+
+
+        <!-- 3D Transform 
+         
+        3D Transform includes: 
+        
+            RotateX
+            RotateY
+            RotateZ
+            Perspective
+        
+        -->
+
+
+    </div>
+</body>
+</html>
