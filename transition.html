@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<body>
+    <div>
+            <!-- transitions + transform -->
+        <style>
+            #tt {
+                background-color: rgb(9, 162, 9);
+                width: 200px;
+                height: 100px;
+                margin: 120px;
+                transition-delay: 2s;
+                transition: width 2s, background-color 3s, transform 1s;
+            }
+
+            #tt:hover {
+                width: 400px;
+                background-color: rgb(144, 0, 255);
+                transform: rotate(360deg);
+            }
+        </style>
+
+        <div id="tt">
+            On hover the box will start the transition effect.
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+           <!-- transitions + transform -->
+        <style>
+            .tt {
+                background-color: rgb(35, 9, 162);
+                width: 200px;
+                height: 100px;
+                margin: 120px;
+                transition-delay: 1s;
+                transition:  background-color 1s, transform 1s;
+            }
+
+            .tt:hover {
+                
+                background-color: rgb(144, 0, 255);
+                transform: scale(1.5)
+            }
+        </style>
+
+        <div class="tt">
+            On hover the box will start the transition effect.
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+         <style>
+            .tt1 {
+                background-color: rgb(230, 111, 204);
+                width: 200px;
+                height: 100px;
+                margin: 120px;
+                transition-delay: 1s;
+                transition:  background-color 1s, transform 3s;
+            }
+
+            .tt1:hover {
+                
+                background-color: rgb(144, 0, 255);
+                transform: translate(100px,0);
+            }
+        </style>
+
+        <div class="tt1">
+            On hover the box will start the transition effect.
+        </div>
+    </div>
+</body>
+</html>
