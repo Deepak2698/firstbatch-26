@@ -1,0 +1,28 @@
+.navbar-brand img {
+  height: 30px;
+  width: 40px;
+}
+
+.bg-color {
+  background-color: #cc5c5ce4;
+}
+
+.row .card {
+  margin: 10px;
+}
+
+.card-header{
+    background-color: #cc5c5ce4;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+    color: #cc5c5ce4;
+}
+
+.card-footer{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
