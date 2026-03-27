@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="bs.css">
+
+    <!-- Bootstrap CSS (CDN - Content Delivery Network) -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript (CDN - Content Delivery Network) -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg bg-color" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://play-lh.googleusercontent.com/Zqv3j3gWCWrxuHW1VkRKNWso3beRsrwPCj58kG_Ile6iGGSf1YfkPYhKExXKY7_L0lU" alt="zomato"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FAQ's</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+
+<!-- Carousel -->
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://i.pinimg.com/736x/d7/5c/e9/d75ce93c02e27cfb9ccc0ef99262c959.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://www.equentis.com/blog/wp-content/uploads/2024/06/Story-of-The-Zomato-Storytelling-00-07.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://stockbuddyneeraj.home.blog/wp-content/uploads/2019/04/kffsivj.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <br>
+        <br>
+
+    <!-- Cards -->
+<div class="container">
+
+    <div class="row">
+        
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.chingssecret.com/public/uploads/blogs/1582286855_1_bfi_im.png" class="card-img-top" alt="chinese food">
+                <div class="card-body">
+                    <h5 class="card-title">Chinese Food</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="https://b.zmtcdn.com/data/pictures/chains/3/900403/ce0341e58cf96f163101b4dff77ed938.jpg?fit=around|960:500&crop=960:500;*,*" class="card-img-top" alt="pizza">
+                <div class="card-body">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" class="card-img-top" alt="Burger">
+                <div class="card-body">
+                    <h5 class="card-title">Burger</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.beanilla.com/wp/wp-content/uploads/2022/06/RefreshingDrinks-1024x683.jpg" class="card-img-top" alt="drinks">
+                <div class="card-body">
+                    <h5 class="card-title">Drinks</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.cookingcarnival.com/wp-content/uploads/2025/09/Vegetable-Dum-Biryani-5.jpg" class="card-img-top" alt="Biryani">
+                <div class="card-body">
+                    <h5 class="card-title">Biryani</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg" class="card-img-top" alt="Dosa">
+                <div class="card-body">
+                    <h5 class="card-title">Dosa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://static01.nyt.com/images/2025/04/02/multimedia/28FD-Easy-Lunch-group-lpzm/28FD-Easy-Lunch-group-lpzm-superJumbo.jpg?format=pjpg&quality=75&auto=webp&disable=upscale" class="card-img-top" alt="lunch">
+                <div class="card-body">
+                    <h5 class="card-title">Lunch</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://static.toiimg.com/thumb/53096885.cms?imgsize=1572013&width=800&height=800" class="card-img-top" alt="cake">
+                <div class="card-body">
+                    <h5 class="card-title">Cake</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+<footer>
+    <div class="card">
+  <h5 class="card-header">Footer</h5>
+  <div class="card-body">
+    <h5 class="card-title"> All rights reserved.</h5>
+    <p class="card-footer">© 2023 Zomato-clone by Prof. Deepak Mishra </p>
+  </div>
+</div>
+</footer>
+    </div>
+</body>
+</html>
