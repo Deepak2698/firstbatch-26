@@ -1,0 +1,29 @@
+
+Variables in Javascript:
+
+- A variable is a container for storing data values. It allows us to store and manipulate data in our programs.
+
+- In JavaScript, we can declare a variable using the `var`, `let`, or `const` keywords.
+
+
+Data Types in JavaScript:
+
+- JavaScript has several built-in data types, including:
+  - Primitive data types: `string`, `number`, `boolean`, `null`, `undefined`, and `symbol`.
+  - Non-primitive data types: `object` (which includes arrays and functions).
+
+  - Number (Integer, Long, Float, Double)
+  - String (Char, String, Varchar)
+  - Boolean (True, False)
+  - Null (Empty Object)
+  - Undefined (Variable that has been declared but not assigned a value)
+
+
+Operators in JavaScript:
+
+- JavaScript has various operators that allow us to perform operations on variables and values. Some common operators include:
+  - Arithmetic operators: `+`, `-`, `*`, `/`, `%`
+  - Assignment operators: `=`, `+=`, `-=`, `*=`, `/=`
+  - Comparison operators: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`
+  - Logical operators: `&&` (AND), `||` (OR), `!` (NOT)
+  - Ternary operator: `condition ? expressionIfTrue : expressionIfFalse`

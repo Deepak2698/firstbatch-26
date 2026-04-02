@@ -1,0 +1,83 @@
+
+Why Javascript ?
+
+- Javascript is used for adding interactiveness and functionality on our HTML,CSS web Pages
+- Javascript is an interpreted programming language 
+- Javascript needs no server, it runs on client machine 
+- Javascript is a single threaded, asynchronous, event- driven programming language
+- It is Fastest among other languages.
+- It is a dedicated language for the front-end
+- It provides unified development platform for front-end (client side) and backend (server side)
+
+
+             Java / C#                       Javascript
+
+             compiler                        interpreter
+             backend language                front-end
+             multi-threaded                  single-threaded
+             synchronous                     asynchronous
+             Only for BE development         provides unified development platform
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+    Humans write code in high level language (like Java, C#, Python, Javascript) which is easy to understand and maintain.
+    But computers can only understand low level language (machine code).
+    So we need a translator to convert our high level code into machine code (0's and 1's). 
+
+    { The scientist George Boole invented the binary system in 1854, which is the basis of all modern computing.
+    He discovered that all logical operations could be represented using just two symbols: 0 and 1.
+    This binary system is the foundation of digital computing, allowing computers to process and store data efficiently}
+
+    This translator can be a compiler or an interpreter.
+
+   1 - Comipler : A compiler is a program that translates the entire source code of a high-level
+                     programming language into machine code before execution.
+
+                    It takes the entire code as input, processes it, and generates an executable file that can be run on the computer.
+                    If there are any syntax errors in the code, the compiler will report them all at once after analyzing the entire code, 
+                    and it will not generate the executable file until all errors are fixed.
+                    You are able to find and fix all the errors before running / executing the program.
+                    It is a slow process because it needs to analyze the entire code before generating the executable file,
+                    but it can produce optimized machine code that runs faster.
+
+    2 - Interpreter : An interpreter is a program that translates and executes high-level programming language code line by line, 
+                         without generating an intermediate executable file.
+
+                    It takes the source code as input, processes it, and executes it directly without creating an executable file.
+                    If there are any syntax errors in the code, the interpreter will report them immediately when it
+                    encounters the error, and it will stop executing the program until the error is fixed.
+                    You need to fix the error before running / executing the program.
+                    It is a faster process because it executes the code line by line, but it may produce
+                    less optimized machine code that runs slower compared to compiled code.
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+Diifference between synchronous and asynchronous programming
+
+Synchronous programming is a programming paradigm where tasks are executed sequentially, one after the other.
+ In this model, each task must complete before the next one can begin.
+  If a task takes a long time to complete, it can block the execution of subsequent tasks,
+   leading to a less responsive user experience.
+
+Asynchronous programming, on the other hand, allows tasks to be executed concurrently without blocking the main thread.
+ In this model, tasks can be initiated and then continue to run in the background while other tasks are being executed.
+  This allows for a more responsive user experience,
+   as the application can continue to function while waiting for long-running tasks to complete.
+
+
+
+Why Node.JS ?
+
+- It brings Javascript from the browser to the local environment, allowing developers to use JavaScript for backend development as well.
+- Node.js is a runtime environment that allows you to run JavaScript on the server side.
+- It is built on Chrome's V8 JavaScript engine, which makes it fast and efficient.
+- Node.js uses an event-driven, non-blocking I/O model, which makes it ideal for building scalable and high-performance applications.
+- It has a large and active community, which means there are many libraries and frameworks available for Node.js development.
+- Node.js is widely used for building web applications, APIs, real-time applications, and microservices.
+- It allows developers to use JavaScript for both front-end and back-end development, providing a unified development experience.
+
+
+
+
