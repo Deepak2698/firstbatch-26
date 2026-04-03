@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <!-- Internal JS -->
+    <script>
+        // Your JavaScript code here
+        function handleClick() {
+            alert('Button clicked!');
+        }
+
+    </script>
+
+    <!-- External JS -->
+    <script src="./dom.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Hello, DOM!</h1>
+
+        <!-- Inline JS -->
+        <button onclick="handleClick()">Click me!</button>
+        <button onclick="externalMessage()">External JS!</button>
+        <input type="text" id="myInput" placeholder="Type something..." oninput="console.log(this.value)">
+
+        <input type="text" id="myInput2" placeholder="Type something..." onchange="console.log(this.value)">
+    </div>
+</body>
+</html>
