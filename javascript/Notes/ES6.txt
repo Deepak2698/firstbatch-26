@@ -1,0 +1,116 @@
+
+ESCMASCRIPT 6 (ES6) is a major update to JavaScript that introduced many new features and improvements.
+
+ECMA  - European Computer Manufacturers Association, the organization responsible for standardizing JavaScript.
+
+(1997-2015) - The period during when Developer used ES5 .
+
+after 2015, ES6 was released and it brought significant changes to the language.
+
+ES6 = ES5 + new features and improvements.
+
+ Some of the key features of ES6 include:
+
+ 1. Let and Const: New ways to declare variables with block scope. - done 
+ 2. Arrow Functions: A shorter syntax for writing functions.
+ 3. Template Literals: A new way to create strings with embedded expressions.
+ 4. Destructuring Assignment: A convenient way to extract values from arrays and objects.
+ 5. Classes along with this keyword 
+ 6. Modules: A way to organize code into reusable pieces.
+
+
+ES6 has become widely adopted and is supported by all modern browsers,
+ making it an essential part of modern JavaScript development.
+
+ --------------------------------------------------------------------------------------------------------
+
+ 1. Let and Const:
+
+
+const z = 20; // outer scope
+
+ function example() {
+
+    let x = 10;
+    var y = 15;
+
+    console.log(x); //10 // block scope
+    console.log(y); //15 // function scope
+    console.log(z); //20 // lexical scoping
+
+    {
+        let x = 5;
+        var a = 25;
+
+        console.log(x); //5 // block scope
+        console.log(a); //25 // function scope (var is not block-scoped)
+        console.log(z); //20 // lexical scoping
+
+    }
+
+    console.log(x); //10 // block scope (the outer x is still accessible)
+    console.log(y); //15 // function scope
+    console.log(z); //20 // lexical scoping
+ }
+
+console.log(z); //20 // lexical scoping
+console.log(x); // ReferenceError: x is not defined
+console.log(y); // ReferenceError: y is not defined
+
+    example();
+
+-------------------------------------------------------------------------------------------------------------------
+
+2. Arrow Functions:
+
+function firstSyntax(){
+    console.log("This is the first syntax of arrow function");
+}
+
+firstSyntax();
+
+const secondSyntax = function(){
+    console.log("This is the second syntax of arrow function");
+}
+
+secondSyntax();
+
+-------------------------------------------------------------------------------------------------------
+
+3. Template Literals:
+
+const name = "John";
+const age = 30; 
+
+const message = `My name is ${name} and I am ${age} years old.`;
+console.log(message); // Output: My name is John and I am 30 years old.
+
+--------------------------------------------------------------------------------------------------------
+
+4. Destructuring Assignment:
+
+let person = {
+    name: "Alice",
+    age: 25,
+    city: "New York",
+    gender: "Female"
+};
+
+---------------------------------------------------------------------------------------------------------
+
+5. Classes along with this keyword:
+
+syntax :
+
+    class ClassName {
+
+        constructor(parameters) {
+            // initialization code
+        }
+
+        // data members 
+
+        // member functions
+    }
+
+    let obj = new ClassName();
