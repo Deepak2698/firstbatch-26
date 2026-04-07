@@ -14,19 +14,81 @@
 
     </script>
 
+    <style>
+        /* Your CSS styles here */
+        .bg-domain {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .bg-head {
+            background-color: #f0f0f0; /* Light gray */
+            border: 1px solid #ccc;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .bg-delete-domain {
+            background-color: #f44336; /* Red */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+    </style>
+
     <!-- External JS -->
     <script src="./dom.js"></script>
 </head>
 <body>
     <div>
-        <h1>Hello, DOM!</h1>
+        <!-- <h1 id="heading">Hello, DOM!</h1>
+
+        <button onclick="changeText()">Change Heading</button>
+        <button onclick="changeHeadingColor()">Change heading colour</button>
+        <button onclick="writeText()">Write Text</button>
+        <button onclick="changeContent()">Change Content</button> -->
 
         <!-- Inline JS -->
-        <button onclick="handleClick()">Click me!</button>
+        <!-- <button onclick="handleClick()">Click me!</button>
         <button onclick="externalMessage()">External JS!</button>
-        <input type="text" id="myInput" placeholder="Type something..." oninput="console.log(this.value)">
+        <input type="text"  id="myInput" placeholder="Type something..." oninput="console.log(this.value)">
 
-        <input type="text" id="myInput2" placeholder="Type something..." onchange="console.log(this.value)">
+        <input type="text" id="myInput2" placeholder="Type something..." onchange="console.log(this.value)"> -->
+
+        <!-- <button onclick="changeBackgroundColor()">Change Background Color</button> -->
+        <!-- <button onclick="changeText()">Change Text</button> -->
+
+        <h1 id="myText" class="bg-head">
+
+        </h1>
+
+        <img id="myImage" src="https://decodecrafters.in/assets/NAV1-DH6VW9a4.png" alt="Placeholder Image">
+
+        <button onclick="changeImage()">Change Image</button>
+
+        <button onclick="domainName()" class="bg-domain">Enter your Domain</button>
+
+        <button onclick="deleteDomain()" class="bg-delete-domain">delete domain</button>
     </div>
 </body>
 </html>

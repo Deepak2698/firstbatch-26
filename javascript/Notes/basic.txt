@@ -18,6 +18,8 @@ Data Types in JavaScript:
   - Null (Empty Object)
   - Undefined (Variable that has been declared but not assigned a value)
 
+  
+
 
 Operators in JavaScript:
 
