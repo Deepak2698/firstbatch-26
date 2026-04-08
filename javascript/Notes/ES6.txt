@@ -16,6 +16,8 @@ ES6 = ES5 + new features and improvements.
  3. Template Literals: A new way to create strings with embedded expressions.
  4. Destructuring Assignment: A convenient way to extract values from arrays and objects.
  5. Classes along with this keyword 
+ 6. Promises: A new way to handle asynchronous operations.
+ 7. Rest and Spread Operators: New syntax for working with arrays and function arguments.
  6. Modules: A way to organize code into reusable pieces.
 
 
