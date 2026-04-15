@@ -25,23 +25,29 @@
 //     }, 2000);
 // }
 
+// function printData(data) {
+//     console.log(data);
+// }
+
+// fetchData(printData);
+
 // fetchData((value) => {
 //     console.log(value);
 // });
 
-function sum (a, b, callback) {
-    const result = a + b;
-    callback(result);
-}
+// function sum (a, b, callback) {
+//     const result = a + b;
+//     callback(result);
+// }
 
-printSum = (result) => {
-    console.log("The sum is:", result);
-}
+// printSum = (result) => {
+//     console.log("The sum is:", result);
+// }
 
-sum(5, 10, printSum);
-sum(10,20, printSum);
-sum(15, 25, printSum);
-sum(20, 30, printSum);
+// // sum(5, 10, printSum);
+// // sum(10,20, printSum);
+// // sum(15, 25, printSum);
+// // sum(20, 30, printSum);
 
 // sum(5, 10, (result) => {
 //     console.log("The sum is:", result);
@@ -61,7 +67,7 @@ sum(20, 30, printSum);
 
 /** 
  * 
- * Synatx of Promise:
+ * Syntax of Promise:
  * 
  * const promise = new Promise((resolve, reject) => {
  *     // Asynchronous operation
@@ -84,7 +90,7 @@ sum(20, 30, printSum);
 //     const promise = new Promise((resolve, reject) => {
 //         console.log("Fetching data...");
 
-//         let success = false; // Simulating a successful operation
+//         let success = true; // Simulating a successful operation
 //         setTimeout(() => {
 //             const data = "Data fetched from server";
 //             const errorMessage = "No data found";
